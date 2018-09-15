@@ -107,7 +107,7 @@ public class BasicOpMode_Linear extends LinearOpMode {
             telemetry.addData("Target Power", tgtPower);
             // telemetry.addData("Motor Power", leftDrive.getPower());
             telemetry.addData("Status", "Running");
-            telemetry.update();
+            telemetry.update();//useless comment, ignore 
 
 
 
